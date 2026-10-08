@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>Mi CV</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="portada">
+    <ion-avatar class="foto">
+      <img src="assets/foto.jpg" alt="Foto de Amy Díaz" />
+    </ion-avatar>
+    <h1>Amy Mishell Díaz Rosero</h1>
+    <p class="cargo">Estudiante de Tecnología Superior en Desarrollo de Software</p>
+    <ion-chip class="estado">
+      <ion-icon name="search-outline"></ion-icon>
+      <ion-label>Buscando prácticas preprofesionales</ion-label>
+    </ion-chip>
+  </div>
+
+  <div class="ion-padding">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="sparkles-outline" color="primary"></ion-icon>
+          Perfil profesional
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content class="texto">
+        Estudiante de Tecnología Superior en Desarrollo de Software con interés en el
+        desarrollo de aplicaciones web y el aprendizaje continuo de nuevas tecnologías.
+        Responsable, comprometida y con facilidad para el trabajo en equipo, orientada
+        a aportar soluciones funcionales.
+        <br /><br />
+        Cuento con experiencia en proyectos académicos de desarrollo frontend,
+        integración con bases de datos, uso de Power BI y metodologías ágiles como Scrum.
+        Busco prácticas preprofesionales para aplicar mis conocimientos, seguir
+        aprendiendo de profesionales del área y contribuir a soluciones de software
+        con impacto real.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="information-circle-outline" color="primary"></ion-icon>
+          Datos personales
+        </ion-card-title>
+      </ion-card-header>
+      <ion-list lines="none">
+        <ion-item>
+          <ion-icon name="location-outline" slot="start" color="primary"></ion-icon>
+          <ion-label>Quito, Pichincha, Ecuador</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="call-outline" slot="start" color="primary"></ion-icon>
+          <ion-label>0992138599</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="mail-outline" slot="start" color="primary"></ion-icon>
+          <ion-label>amymishell6&#64;gmail.com</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+  </div>
+</ion-content>

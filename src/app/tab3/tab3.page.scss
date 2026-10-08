@@ -1,0 +1,21 @@
+ion-card-title {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.seccion {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ion-color-primary);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 20px 4px 10px;
+}
+
+ion-button {
+  margin-bottom: 10px;
+  --border-radius: 12px;
+}
